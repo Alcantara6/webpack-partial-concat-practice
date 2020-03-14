@@ -1,5 +1,5 @@
 {
-  "name": "webpack js concat and expose-loader",
+  "name": "concat-expose-loader",
   "version": "0.0.1",
   "description": "如何连接非模块化的js文件，全局引用（）\u001b[D部分文件模块化打包），部分js使用模块化打包并暴露为全局变量供其它js引用",
   "main": "index.js",

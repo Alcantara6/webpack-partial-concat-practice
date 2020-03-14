@@ -59,6 +59,6 @@ module.exports = {
 			template: './src/index.html'
 		}),
 		new CleanWebpackPlugin(),
-		concatPlugin
+		concatPlugin  // 注意顺序，concat在HtmlWebpack之后，才能同时把两个脚本注入html
 	]
 }
